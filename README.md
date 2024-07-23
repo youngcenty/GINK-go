@@ -11,8 +11,8 @@ There is a pipeline of how we do GINK-go analysis for each part. Parts of codes 
 The pipeline for ISS imaging was from feldman.
 (https://github.com/feldman4/OpticalPooledScreens)
 
-## Single-molecule Imaging of Nascent Analysis
-
+## Single-molecule Imaging of Nascent RNA Analysis
+An AI-driven model was designed for Single-molecule imaging of nascent RNA, which can perform cell segmentation, cell tracking and transcription site detection. 
 ## Image Registration for ISS Imaging and Live-cell Imaging
 ![image](./docs/registration.jfif)
 ## HMM Fitting
