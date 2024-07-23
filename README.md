@@ -2,7 +2,7 @@
 
 We developed an innovative technology for Genome-wide Imaging of Nascent RNA Kinetics (GINK-go). This technique merges single-molecule imaging of nascent RNA, gene barcoding, in situ sequencing, and computer vision.
 
-![image](GINK-go/docs/workflow.png)
+![image](./docs/workflow.png)
 
 There is a pipeline of how we do GINK-go analysis for each part. Parts of codes are provided.
 
