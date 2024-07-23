@@ -17,7 +17,7 @@ The pipeline for ISS imaging was from feldman.
 
 ## HMM fitting
 
-## CUT&tag+ATAC-seq
+## Epigenetics analysis & Motif analysis
 
 
 
