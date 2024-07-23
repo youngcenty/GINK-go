@@ -5,19 +5,19 @@ We developed an innovative technology for Genome-wide Imaging of Nascent RNA Kin
 
 There is a pipeline of how we do GINK-go analysis for each part. Parts of codes are provided.
 
-## virus insertion site analysis
+## Virus Integration Site Analysis
 
-## in situ sequencing analysis
+## In Situ Sequencing Analysis
 The pipeline for ISS imaging was from feldman.
 (https://github.com/feldman4/OpticalPooledScreens)
 
-## single-molecule imaging of nascent analysis
+## Single-molecule Imaging of Nascent Analysis
 
-## image registration for ISS imaging and livecell imaging
+## Image Registration for ISS Imaging and Live-cell Imaging
 ![image](./docs/registration.jfif)
-## HMM fitting
+## HMM Fitting
 
-## Epigenetics analysis & Motif analysis
+## Epigenetics Analysis & Motif Analysis
 
 
 
