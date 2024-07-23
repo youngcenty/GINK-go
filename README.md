@@ -4,17 +4,17 @@ We developed an innovative technology for Genome-wide Imaging of Nascent RNA Kin
 
 There is a pipeline of how we do GINK-go analysis for each part. Parts of codes are provided.
 
-#virus insertion site analysis
+## virus insertion site analysis
 
-#in situ sequencing analysis
+## in situ sequencing analysis
 
-#single-molecule imaging of nascent analysis
+## single-molecule imaging of nascent analysis
 
-#image registration for ISS imaging and livecell imaging
+## image registration for ISS imaging and livecell imaging
 
-#HMM fitting
+## HMM fitting
 
-#CUT&tag+ATAC-seq
+## CUT&tag+ATAC-seq
 
 
 
