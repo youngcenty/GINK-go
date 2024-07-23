@@ -14,7 +14,7 @@ The pipeline for ISS imaging was from feldman.
 ## single-molecule imaging of nascent analysis
 
 ## image registration for ISS imaging and livecell imaging
-
+![image](./docs/registration.jfif)
 ## HMM fitting
 
 ## Epigenetics analysis & Motif analysis
