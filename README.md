@@ -13,9 +13,20 @@ The pipeline for ISS imaging was from feldman.
 
 ## Single-molecule Imaging of Nascent RNA Analysis
 An AI-driven model was designed for Single-molecule imaging of nascent RNA, which can perform cell segmentation, cell tracking and transcription site detection. 
+
+More details can be found at (https://github.com/Zafkiel25102/Cell-tracking-and-Transcription-sites-detection)
+
+
+
 ## Image Registration for ISS Imaging and Live-cell Imaging
 ![image](./docs/registration.jfif)
 ## HMM Fitting
+
+
+
+
+
+
 
 ## Epigenetics Analysis & Motif Analysis
 
