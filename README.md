@@ -58,7 +58,7 @@ This part was basically done by imageJ.
 
 ## Epigenetics Analysis & Motif Analysis
 
-
+Codes are stored in folder('/analysis')
 
 
 
