@@ -3,66 +3,57 @@
 We developed an innovative technology for Genome-wide Imaging of Nascent RNA Kinetics (GINK-go). This technique merges single-molecule imaging of nascent RNA, gene barcoding, in situ sequencing, and computer vision.
 ![image](./docs/workflow.jpg)
 
-There is a pipeline of how we do GINK-go analysis for each part. Parts of codes are provided.
-
-# Virus Integration Site Analysis
-
-The samples were initially split by Demultiplex. 
-
-Then quality control and trimming was performed.  
-
-The barcode-junction structure was recognized and extracted. 
-
-Fasta-formatted file was mapped to genome by Bowtie2.
-
-Bowtie2 mapping results were transformed into bed format by Bedtools(2.27.1) and annonated  by Gencode human annotations(v32) . 
-
-Results were filtered  by direction and then by junction length with a cutoff of 20 bp. 
-
-By integrating the filtered annotated results, we gained a barcode codebook.
-
-# In Situ Sequencing Analysis
-
-The pipeline for ISS imaging was from feldman.
-(https://github.com/feldman4/OpticalPooledScreens)
 
 # Single-molecule Imaging of Nascent RNA Analysis
+
 An AI-driven model was designed for Single-molecule imaging of nascent RNA, which can perform cell segmentation, cell tracking and transcription site detection. 
 
 More details can be found at (https://github.com/Zafkiel25102/Cell-tracking-and-Transcription-sites-detection)
 
+## System Requirements
 
+The code has been tested on:
 
-# Image Registration for ISS Imaging and Live-cell Imaging
+- Red Hat 8.3.1-5 with CUDA 11.7 (Nvidia L40)
+- Ubuntu 18.04 with CUDA 12.2 (Nvidia GeForce RTX 4090)
 
+## Environment Setup
 
+Cell segmentation and tracking requires seperate conda environment, with `cell-seg.yml` and `cell-track.yml` files provided for each setup.
 
-This part was basically done by imageJ.
+For cell segmentation, run the following commands to create and install the environment:
 
-“Grid/Collection stitching” tool was used for image stitching.
+```bash
+cd cell_track
+conda env create -f cell-seg.yml
+conda activate sam-yolo
+cd bash/segment-anything
+pip install -e .
+```
 
-“Extract SIFT Correspondences” tool was used for feature extraction. 
+**Troubleshootings**: If there's any issue with `mmcv` package in usage, suggested to reinstall `mmcv` using `mim` instead of `pip`:
 
-"bUnwarpJ" tool was used for image registration and transformation matrix generation.
+```bash
+pip uninstall mmcv
+mim install "mmcv==2.0.1"
+```
 
- registration.python was used for mapping ISS images' coordinates with live-cell images'.
+For cell tracking, run the following commands to create and install the environment:
 
+```bash
+cd cell_track
+conda env create -f cell-track.yml
+conda activate celltrack
+```
 
+**Tips**: Environment installation may take a few minutes, depending on your network speed and installation source.
 
-![image](./docs/registration.jfif)
-# HMM Fitting
+## Cell Segmentation and Tracking
 
-‘hmm.rscript’ was used to decode single-molecule trajectories in a two-state model.
+Please refer to to [README](/cell_track/README.md) for more details.
 
-![image](./docs/hmm.png)
+## Transcription sites Analysis
 
-# Epigenetics Analysis & Motif Analysis
-
-Codes are stored in folder('/analysis')
-
-
-
-
-
+Please refer to to [README](/site_flow/README.md) for more details.
 
 
