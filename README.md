@@ -62,4 +62,4 @@ Please refer to to [README](/site_flow/README.md) for more details.
 
 # Other Analysis
 
-Part of other analysis code can be found at [README](/analysis) 
+Part of other analysis code can be found at [Analysis](/analysis) 
