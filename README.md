@@ -8,7 +8,7 @@ We developed an innovative technology for Genome-wide Imaging of Nascent RNA Kin
 
 An AI-driven model was designed for Single-molecule imaging of nascent RNA, which can perform cell segmentation, cell tracking and transcription site detection. 
 
-More details can be found at (https://github.com/Zafkiel25102/Cell-tracking-and-Transcription-sites-detection)
+This pipeline can also be found at (https://github.com/Zafkiel25102/Cell-tracking-and-Transcription-sites-detection)
 
 ## System Requirements
 
@@ -50,10 +50,13 @@ conda activate celltrack
 
 ## Cell Segmentation and Tracking
 
+![image](./docs/celltrack.png)
+
 Please refer to to [README](/cell_track/README.md) for more details.
 
 ## Transcription sites Analysis
 
-Please refer to to [README](/site_flow/README.md) for more details.
+![image](./docs/sitetrack.png)
 
+Please refer to to [README](/site_flow/README.md) for more details.
 
