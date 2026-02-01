@@ -59,7 +59,3 @@ Please refer to to [README](/cell_track/README.md) for more details.
 ![image](./docs/sitetrack.png)
 
 Please refer to to [README](/site_flow/README.md) for more details.
-
-# Other Analysis
-
-Part of other analysis code can be found at [Analysis](/analysis) 
